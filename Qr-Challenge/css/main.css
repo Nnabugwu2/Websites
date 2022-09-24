@@ -43,7 +43,7 @@ p{
 /* ===================Mobile view================================= */
 @media (max-width:300px){
     .container .box{
-    width: 80%;
+    width: 90%;
     }
 }
 @media (max-width:250px){
