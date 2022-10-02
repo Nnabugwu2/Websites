@@ -93,13 +93,41 @@ main button svg{
 
 /* ==================Media Query */
 
-@media (max-width:420px) {
+@media (max-width:500px) {
     main{
         height: auto;
     }
     main .card .content h1{
         font-size: 150%;
     }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+     main .card{ 
+        flex-direction: column;
+        width: 100%;
+    }
+    main .card img{
+        width: 100%;
+        height: 50%;
+    }
+    main .card .content{
+        width: 100%;
+    }
+    #p1{
+        font-size: 120%;
+    }
+    main .card .content h1{
+        font-size: 200%;
+        /* font-weight: bold; */
+    }
+    main .card .content #p2{
+        font-size: 1em;
+    }
+}
 }
 @media (max-width:375px) {
     .desktop{
