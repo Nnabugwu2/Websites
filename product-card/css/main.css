@@ -87,10 +87,14 @@ main button{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:0.3s ease-in-out;
 }
 main button svg{
     width:7%;
     margin-right: .3em;
+}
+main button:hover{
+    background-color: hsl(212, 21%, 14%);
 }
 
 /* ==================Media Query */
