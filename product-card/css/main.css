@@ -18,7 +18,7 @@ main .card{
     display:flex;
     background-color: hsl(0, 0%, 100%);
     max-width: 30em;
-    height: auto;
+    height: 100vh;
     padding: 0;
 }
 main .card .desktop{
