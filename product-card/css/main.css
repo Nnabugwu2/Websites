@@ -97,12 +97,7 @@ main button svg{
     main{
         height: auto;
     }
-    main .card .content h1{
-        font-size: 150%;
-    }
-}
-@media (max-width:375px) {
-    .desktop{
+       .desktop{
         display: none;
     }
     .mobile{
@@ -129,6 +124,12 @@ main button svg{
     main .card .content #p2{
         font-size: 1em;
     }
+    main .card .content h1{
+        font-size: 150%;
+    }
+}
+@media (max-width:375px) {
+ 
 }
 @media (max-width:235px) {
     main .card .content section{
